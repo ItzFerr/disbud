@@ -1,0 +1,15 @@
+{
+  "description": "djsbud",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "prettier": "^2.3.2"
+  },
+  "main": "src/index.js",
+  "name": "ferdysr",
+  "scripts": {
+    "format": "prettier --write \"typings/*.ts\" \"src/**/*.js\"",
+    "version": "npm run format"
+  },
+  "types": "typings/index.d.ts",
+  "version": "4.0.0"
+}
